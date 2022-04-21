@@ -1,0 +1,18 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "Cmder": {
+    "path": "${env:windir}\\System32\\cmd.exe",
+    "args": ["/k", "C:\\cmder\\vendor\\bin\\vscode_init.cmd"]
+    }
+    },
+    "terminal.integrated.defaultProfile.windows": "Cmder",
+    
+    
+  
+  
+    "python.formatting.provider": "black",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true
+    
+    
+}
